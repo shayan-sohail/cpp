@@ -5,6 +5,7 @@ This repository is a comprehensive resource for C++ programming, covering variou
 ### C++11
 
 - **auto:** Automatically deduces the type of a variable from its initializer, making code more concise and readable.
+- **decltype:** Determines the declared type of an expression.
 
 ### C++14
 

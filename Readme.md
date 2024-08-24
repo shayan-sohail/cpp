@@ -7,6 +7,8 @@ This repository is a comprehensive resource for C++ programming, covering variou
 - **auto:** Automatically deduces the type of a variable from its initializer, making code more concise and readable.
 - **decltype:** Determines the declared type of an expression.
 - **nullptr:** Type-safe null pointer value in C++.
+- **enum:** Better type safety and scoping compared to traditional C++ enums. .
+- **template_alias:** Alias templates allow you to create type aliases using templates, simplifying complex types and improving code readability.
 
 ### C++14
 

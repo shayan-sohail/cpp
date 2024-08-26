@@ -16,6 +16,8 @@ This repository is a comprehensive resource for C++ programming, covering variou
 - **default_delete**: Allows developers to explicitly specify or prevent the compiler from generating certain special member functions.
 - **constexpr**: Allows functions and variables to be evaluated at compile time, ensuring they are constant expressions.
 - **trailing_return_type**: Allows you to specify the return type of a function after the parameter list, using the auto keyword and -> syntax.
+- **rvalue_reference**: Allows the distinction between lvalues and rvalues, enabling move semantics for efficient resource transfer.
+- **delegating_constructor**: Allows a constructor to call another constructor of the same class, enabling code reuse and simplifying initialization.
 
 ### C++14
 

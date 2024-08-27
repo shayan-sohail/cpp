@@ -18,6 +18,9 @@ This repository is a comprehensive resource for C++ programming, covering variou
 - **trailing_return_type**: Allows you to specify the return type of a function after the parameter list, using the auto keyword and -> syntax.
 - **rvalue_reference**: Allows the distinction between lvalues and rvalues, enabling move semantics for efficient resource transfer.
 - **delegating_constructor**: Allows a constructor to call another constructor of the same class, enabling code reuse and simplifying initialization.
+- **static_assert**: Performs compile-time assertions, ensuring that certain conditions or properties are met during compilation, particularly useful for type checking.
+- **alignof_alignas**: alignof queries the alignment requirements of a type, while alignas specifies custom alignment for types or variables.
+- **noexcept**: Specifies that a function will not throw exceptions, enabling optimizations and providing stronger exception safety guarantees.
 
 ### C++14
 

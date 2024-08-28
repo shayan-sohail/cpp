@@ -22,6 +22,13 @@ This repository is a comprehensive resource for C++ programming, covering variou
 - **alignof_alignas**: alignof queries the alignment requirements of a type, while alignas specifies custom alignment for types or variables.
 - **noexcept**: Specifies that a function will not throw exceptions, enabling optimizations and providing stronger exception safety guarantees.
 
+- **array**: Fixed-size container that represents arrays with a known constant size, providing the advantages of both static arrays and standard library containers.
+- **unordered_map**: Associative container (Tree/Hash/Fast Lookup) that stores key-value pairs with fast average-time complexity for lookups, insertions, and deletions, using a hash table.
+- **unordered_set**: Associative container that stores unique elements in no particular order, providing fast average-time complexity for lookups, insertions, and deletions using a hash table.
+- **unordered_multimap**: Associative container that stores key-value pairs, allowing multiple pairs with the same key, and provides average constant-time complexity for operations due to its underlying hash table.
+- **unordered_multiset**: Associative container that stores elements, allowing multiple occurrences of the same element, and provides average constant-time complexity for operations using a hash table.
+- **algorithms**: std::all_of, std::any_of, std::none_of, std::copy_n, std::iota, and std::move.
+
 ### C++14
 
 ### C++17

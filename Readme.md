@@ -35,6 +35,10 @@ This repository is a comprehensive resource for C++ programming, covering variou
 - **mutex**: Synchronization primitive that provides mutual exclusion, ensuring that only one thread can access a critical section of code at a time.
 - **condition_variable**: Synchronization primitive that allows threads to wait until a certain condition is met, enabling efficient communication between threads.
 - **promise & future**: Used to handle asynchronous operations by allowing one thread to set a value (or exception) and another thread to retrieve that value.
+- **chrono**: Library for representing and manipulating time durations, time points, and clocks, providing a precise way to measure time intervals and handle time-based operations.
+- **random**: Library provides a powerful and flexible framework for generating random numbers, supporting various distributions, and random engines for different use cases.
+- **regex**: Library which provides a powerful framework for searching, matching, and manipulating text using regular expressions.
+- **tuple**: Fixed-size collection that can hold elements of different types, enabling more flexible and type-safe handling of heterogeneous data.
 
 ### C++14
 

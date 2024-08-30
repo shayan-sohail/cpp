@@ -28,6 +28,13 @@ This repository is a comprehensive resource for C++ programming, covering variou
 - **unordered_multimap**: Associative container that stores key-value pairs, allowing multiple pairs with the same key, and provides average constant-time complexity for operations due to its underlying hash table.
 - **unordered_multiset**: Associative container that stores elements, allowing multiple occurrences of the same element, and provides average constant-time complexity for operations using a hash table.
 - **algorithms**: std::all_of, std::any_of, std::none_of, std::copy_n, std::iota, and std::move.
+- **unique_ptr**: Smart pointer that manages a dynamically allocated object, ensuring exclusive ownership and automatic deallocation when it goes out of scope.
+- **shared_ptr**: Smart pointer that manages shared ownership of a dynamically allocated object, automatically deallocating the object when the last shared_ptr to it is destroyed.
+- **weak_ptr**: Smart pointer that provides a non-owning ("weak") reference to an object managed by std::shared_ptr, allowing you to access the object without affecting its reference count or preventing its destruction.
+- **thread**: Allows you to create and manage threads, enabling concurrent execution of code in a multithreaded environment.
+- **mutex**: Synchronization primitive that provides mutual exclusion, ensuring that only one thread can access a critical section of code at a time.
+- **condition_variable**: Synchronization primitive that allows threads to wait until a certain condition is met, enabling efficient communication between threads.
+- **promise & future**: Used to handle asynchronous operations by allowing one thread to set a value (or exception) and another thread to retrieve that value.
 
 ### C++14
 

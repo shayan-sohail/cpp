@@ -2,6 +2,8 @@
 
 This repository is a comprehensive resource for C++ programming, covering various C++ standards from C++11 to C++23. Each section will delve into the key features and improvements introduced in that particular standard.
 
+## C++11
+
 #### Type System Enhancements
 
 `auto`, `decltype`, `nullptr`, `Strong Type Enums`, `Alias Templates`
@@ -35,3 +37,13 @@ This repository is a comprehensive resource for C++ programming, covering variou
 ##### Other Features
 
 `chrono`, `random`, `regex`, `tuple`
+
+## C++14
+
+#### Core Language Features
+
+`Return type deduction`, `decltype(auto)`, `Relaxed constexpr restrictions`, `Variable templates`, `Aggregate member initialization`, `Binary literals`, `Digit separators`, `Generic lambdas`, `Lambda capture initializers`, `[[deprecated]] attribute`
+
+#### Standard Library Enhancements
+
+`std::make_unique`, `std::exchange`, `User-defined literals for standard library types`, `std::shared_timed_mutex` and `std::shared_lock`, `Heterogeneous lookup in associative containers`

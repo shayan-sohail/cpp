@@ -10,3 +10,13 @@
 - **auto_for_braced-init-list:** `auto` can now deduce the type of a braced-init-list more accurately, avoiding ambiguities and ensuring better type deduction.
 - **exception_specifications:** Exception specifications (like noexcept) are now part of a function's type, meaning they affect overloading, type deduction, and other type-related behavior.
 - **no_discard_fallthrough_maybe_unused:** Provide additional information about functions, return values, and variables, helping compilers and developers improve code quality.
+- **`variant`:** Provides a type-safe union for handling different types of values in C++17.
+- **`optional`:** Represents optional values that may or may not contain a value.
+- **`any`:** Allows you to store any type of value while maintaining type safety at runtime.
+- **`string_view`:** Provides a non-owning, read-only view into a string or a part of a string. It is designed to improve performance by avoiding unnecessary string copies.
+- **`filesystem`:** Allows you to store any type of value while maintaining type safety at runtime.
+- **`byte`:** Represents a single byte as a distinct type, providing better type safety than char or unsigned char for byte-oriented operations.
+- **Parallel Algorithms:** Allows certain algorithms to be executed in parallel, potentially improving performance on multi-core processors.
+- **`invoke`:** Used to call a callable object (such as a function, member function, or a functor) with arbitrary arguments.
+- **`apply`:** Allows you to apply a callable (such as a function, lambda, or function object) to the elements of a tuple. It "unpacks" the tuple elements and passes them as arguments to the callable.
+- **splicing:** Allows you to efficiently transfer elements between two containers without needing to copy or move the elements explicitly.

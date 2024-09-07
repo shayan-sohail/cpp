@@ -47,3 +47,14 @@ This repository is a comprehensive resource for C++ programming, covering variou
 #### Standard Library Enhancements
 
 `std::make_unique`, `std::exchange`, `User-defined literals for standard library types`, `std::shared_timed_mutex` and `std::shared_lock`, `Heterogeneous lookup in associative containers`
+
+## C++17
+
+
+#### Core Language Features 
+
+`Structured bindings`, `Inline variables`, `constexpr if`, `if and switch with initializer`, `Fold expressions`, `Nested namespaces`, `Template argument deduction for class templates (CTAD)`, `auto deduction for braced-init-list`, `Exception specifications as part of the type system`, `[[nodiscard]]`, `[[fallthrough]]`, `[[maybe_unused]]` attributes.
+
+#### Standard Library Enhancements
+
+`std::variant`, `std::optional`, `std::any`, `std::string_view`, `std::filesystem`, `std::byte`, `parallel algorithms`, `std::invoke`, `std::apply`, `splicing for maps and sets`.
